@@ -197,10 +197,60 @@ DELIMITER $
 DROP PROCEDURE IF EXISTS merge_products;
 
 CREATE PROCEDURE merge_products(
-
+  IN `prod_key` int,
+  IN `product_id` int ,
+  IN `product_code` varchar(25) ,
+  IN `product_name` varchar(50) ,
+  IN `standard_cost` decimal(19,4) ,
+  IN `list_price` decimal(19,4) ,
+  IN `reorder_level` int ,
+  IN `target_level` int ,
+  IN `quantity_per_unit` varchar(50),
+  IN `discontinued` tinyint(1) ,
+  IN `minimum_reorder_quantity` int ,
+  IN `category` varchar(50)
 )
 BEGIN
-
+	IF exists (select 1 from dim_products where product_key = prod_key) then
+		Update northwind_dw.dim_products
+        set product_id = product_id,
+			product_code = product_code,
+			product_name = product_name,
+			standard_cost = standard_cost,
+			list_price = list_price,
+			reorder_level = reorder_level,
+			target_level = target_level,
+			quantity_per_unit = quantity_per_unit,
+			discontinued = discontinued,
+			minimum_reorder_quantity = minimum_reorder_quantity,
+			category = category
+		where product_key = prod_key;
+	else
+		insert into northwind_dw.dim_products (
+			product_id,
+            product_code,
+            product_name,
+            standard_cost,
+            list_price,
+            reorder_level,
+            target_level,
+            quantity_per_unit,
+            discontinued,
+            minimum_reorder_quantity,
+            category)
+		Values(
+			product_id,
+            product_code,
+            product_name,
+            standard_cost,
+            list_price,
+            reorder_level,
+            target_level,
+            quantity_per_unit,
+            discontinued,
+            minimum_reorder_quantity,
+            category);
+    End if;
 END$$
 
 DELIMITER ;
@@ -228,10 +278,44 @@ DELIMITER $
 DROP PROCEDURE IF EXISTS merge_shippers;
 
 CREATE PROCEDURE merge_shippers(
-
+  `ship_key` int ,
+  `shipper_id` int ,
+  `company` varchar(50) ,
+  `address` longtext,
+  `city` varchar(50) ,
+  `state_province` varchar(50) ,
+  `zip_postal_code` varchar(15) ,
+  `country_region` varchar(50)
 )
 BEGIN
-
+	IF exists (select 1 from dim_shippers where shipper_key = ship_key) then
+		update northwind_dw.dim_shippers
+        set shipper_id = shipper_id,
+			company = company,
+			address = address,
+			city = city,
+			state_province = state_province, 
+			zip_postal_code = zip_postal_code,
+			country_region = country_region
+        where shipper_key = ship_key;
+	Else 
+		insert into northwind_dw.dim_shippers (
+			shipper_id,
+			company,
+			address,
+			city,
+			state_province,
+			zip_postal_code,
+			country_region)
+		Values (
+			shipper_id,
+            company,
+            address,
+            city,
+            state_province,
+            zip_postal_code,
+            country_region);
+	End if;
 END$$
 
 DELIMITER ;

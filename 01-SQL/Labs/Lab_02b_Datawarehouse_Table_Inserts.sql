@@ -102,6 +102,18 @@ INSERT INTO `northwind_dw`.`dim_products`
 `minimum_reorder_quantity`,
 `category`)
 # TODO: Write a SELECT Statement to Populate the table;
+SELECT `products`.`id`,
+    `products`.`product_code`,
+    `products`.`product_name`,
+    `products`.`standard_cost`,
+    `products`.`list_price`,
+    `products`.`reorder_level`,
+    `products`.`target_level`,
+    `products`.`quantity_per_unit`,
+    `products`.`discontinued`,
+    `products`.`minimum_reorder_quantity`,
+    `products`.`category`
+FROM `northwind`.`products`;
 
 -- ----------------------------------------------
 -- Validate that the Data was Inserted ----------
@@ -123,12 +135,19 @@ INSERT INTO `northwind_dw`.`dim_shippers`
 `zip_postal_code`,
 `country_region`)
 # TODO: Write a SELECT Statement to Populate the table;
+SELECT `shippers`.`id`,
+    `shippers`.`company`,
+    `shippers`.`address`,
+    `shippers`.`city`,
+    `shippers`.`state_province`,
+    `shippers`.`zip_postal_code`,
+    `shippers`.`country_region`
+FROM `northwind`.`shippers`;
 
 -- ----------------------------------------------
 -- Validate that the Data was Inserted ----------
 -- ----------------------------------------------
 SELECT * FROM northwind_dw.dim_shippers;
-
 
 
 -- ----------------------------------------------
@@ -169,6 +188,32 @@ TODO: Write a SELECT Statement that:
 - columns you're required to extract from each of the four tables. Pay close attention!
 --------------------------------------------------------------------------------------------------
 */
+
+SELECT o.`id` as `order_id`,
+	od.`id` as `order_detail_id`,
+    o.`customer_id`,
+    o.`employee_id`,
+    od.`product_id`,
+    o.`shipper_id`,
+    o.`order_date`,
+    o.`paid_date`,
+    o.`shipped_date`,
+    o.`payment_type`,
+    od.`quantity`,
+    od.`unit_price`,
+    od.`discount`,
+    o.`shipping_fee`,
+    o.`taxes`,
+    o.`tax_rate`,
+    os.status_name as `order_status`,
+    ods.status_name as `order_details_status`
+FROM northwind.orders as o
+INNER JOIN northwind.orders_status as os
+ON o.status_id = os.id
+LEFT OUTER JOIN northwind.order_details as od
+ON o.id = od.order_id
+INNER JOIN northwind.order_details_status as ods
+ON od.status_id = ods.id;
 
 -- ----------------------------------------------
 -- Validate that the Data was Inserted ----------

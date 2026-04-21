@@ -1,0 +1,4 @@
+v1
+{"path":"file:///Users/gregory/Documents/GitHub/DS-2002/05-Apache-Spark/05a-PySpark/spark-warehouse/northwind_dlh.db/fact_purchase_orders/bronze/part-00000-2aa971d6-d913-48b2-b0b9-b95b86fd5a40-c000.snappy.parquet","timestamp":1776755714759,"batchId":0}
+{"path":"file:///Users/gregory/Documents/GitHub/DS-2002/05-Apache-Spark/05a-PySpark/spark-warehouse/northwind_dlh.db/fact_purchase_orders/bronze/part-00000-ca6a0f52-81a5-4bd9-9e2b-75a45dcbb15b-c000.snappy.parquet","timestamp":1776755715259,"batchId":0}
+{"path":"file:///Users/gregory/Documents/GitHub/DS-2002/05-Apache-Spark/05a-PySpark/spark-warehouse/northwind_dlh.db/fact_purchase_orders/bronze/part-00000-5e261ab4-702a-4c8a-b3e6-8118a8f35cfc-c000.snappy.parquet","timestamp":1776755715536,"batchId":0}

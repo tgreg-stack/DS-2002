@@ -1,0 +1,2 @@
+v1
+{"path":"file:///Users/gregory/Documents/GitHub/DS-2002/05-Apache-Spark/05a-PySpark/spark-warehouse/northwind_dlh.db/fact_purchase_orders/bronze/part-00000-ca6a0f52-81a5-4bd9-9e2b-75a45dcbb15b-c000.snappy.parquet","size":8584,"isDir":false,"modificationTime":1776755715259,"blockReplication":1,"blockSize":33554432,"action":"add"}

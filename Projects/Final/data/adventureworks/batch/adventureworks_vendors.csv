@@ -1,0 +1,105 @@
+VendorID,AccountNumber,Name,CreditRating,PreferredVendorStatus,ActiveFlag,AddressType,AddressLine1,AddressLine2,City,StateProvinceCode,State_Province,PostalCode
+1,INTERNAT0001,International,1,1,1,"Main Office","683 Larch Ct.",NULL,"Salt Lake City","UT ",Utah,84101
+2,ELECTRON0002,"Electronic Bike Repair & Supplies",1,1,1,"Main Office","8547 Catherine Way",NULL,Tacoma,"WA ",Washington,98403
+3,PREMIER0001,"Premier Sport, Inc.",1,1,1,"Main Office","7682 Fern Leaf Lane",NULL,Boston,"MA ",Massachusetts,02113
+4,COMFORT0001,"Comfort Road Bicycles",1,1,1,"Main Office","7651 Smiling Tree Court","Space 55","Los Angeles","CA ",California,90012
+5,METROSP0001,"Metro Sport Equipment",1,1,1,"Main Office","60 Oakgrove Rd.",NULL,Lebanon,"OR ",Oregon,97355
+6,GREENLA0001,"Green Lake Bike Company",1,1,1,"Main Office","2342 Peachwillow",NULL,Denver,"CO ",Colorado,80203
+7,MOUNTAIN0001,"Mountain Works",1,0,1,"Main Office","8 Rogers Ave.",NULL,Everett,"WA ",Washington,98201
+8,CONTINEN0001,"Continental Pro Cycles",3,1,1,"Main Office","2 Lion Circle",NULL,"Long Beach","CA ",California,90802
+9,ADATUM0001,"A. Datum Corporation",1,1,1,"Main Office","2596 Big Canyon Road",NULL,"New York","NY ","New York",10007
+10,TREYRE0001,"Trey Research",3,1,1,"Main Office","1874 Valley Blvd.",NULL,"Palo Alto","CA ",California,94303
+11,ANDERSON0001,"Anderson's Custom Bikes",1,1,1,"Main Office","9 Guadalupe Dr.",NULL,Burbank,"CA ",California,91502
+12,COMPETE0002,"Compete, Inc.",1,1,1,"Main Office","9491 Toyon Dr",NULL,Dallas,"TX ",Texas,75201
+13,BEAUMONT0001,"Beaumont Bikes",1,0,1,"Main Office","2472 Alexander Place",NULL,"West Covina","ID ",Idaho,83301
+14,LIGHTSP0001,"Light Speed",1,1,1,"Main Office","298 Sunnybrook Drive",NULL,"Spring Valley","CA ",California,91977
+15,SUPERSAL0001,"SUPERSALES INC.",1,1,1,"Main Office","9443 Oaxaca",NULL,Lakewood,"CA ",California,90712
+16,IMAGEMA0001,"Image Makers Bike Center",1,1,1,"Main Office","3195 RiverRock Dr.",NULL,Burlingame,"CA ",California,94010
+17,COMPETE0001,"Compete Enterprises, Inc",1,1,1,"Main Office","50 Via Del Sol",NULL,Lynnwood,"WA ",Washington,98036
+18,G&KBI0001,"G & K Bicycle Corp.",1,1,1,"Main Office","8981 Carmel Drive",NULL,"W. Linn","NV ",Nevada,89701
+19,CYCLING0001,"Cycling Master",1,1,1,"Main Office","4823 Stonewood Ct.",NULL,"Walla Walla","WA ",Washington,99362
+20,JEFFSSP0001,"Jeff's Sporting Goods",1,1,1,"Main Office","31 Bridgeview St",NULL,Glendale,"CA ",California,91203
+21,BUSINESS0001,"Business Equipment Center",2,1,1,"Main Office","6061 St. Paul Way",NULL,Everett,"MT ",Montana,98201
+22,VICTORY0001,"Victory Bikes",5,1,1,"Main Office","3459 Tri-state Ave",NULL,Issaquah,"WA ",Washington,98027
+23,NORSTAN0001,"Norstan Bike Hut",1,1,1,"Main Office","68 Filling Ave.",NULL,Beaverton,"OR ",Oregon,97005
+24,FIRSTRA0001,"First Rate Bicycles",1,1,1,"Main Office","7053 Laurel Dr.",NULL,"La Mesa","NM ","New Mexico",88044
+25,READYRE0001,"Ready Rentals",1,1,1,"Main Office","35 Buckthorn Court","# 1",Kirkland,"WA ",Washington,98033
+26,FIRSTNA0001,"First National Sport Co.",1,1,1,"Main Office","8127 Otter Dr.",NULL,Boise,"ID ",Idaho,83702
+27,CAPITAL0001,"Capital Road Cycles",1,1,1,"Main Office","628 Muir Road",NULL,"Los Angeles","CA ",California,90012
+28,WIDEWOR0001,"Wide World Importers",2,1,1,"Main Office","50 Edward Ave",NULL,Concord,"CA ",California,94519
+29,INTEGRAT0001,"Integrated Sport Products",1,1,1,"Main Office","75 Q St.",NULL,"Chula Vista","CA ",California,91910
+30,CONSUMER0001,"Consumer Cycles",3,1,1,"Main Office","3 Chablis Court",NULL,Torrance,"CA ",California,90505
+31,FEDERAL0001,"Federal Sport",3,1,1,"Main Office","2909 Toyon Dr.",NULL,Burlingame,"CA ",California,94010
+32,ADVANCED0001,"Advanced Bicycles",1,1,1,"Main Office","7995 Edwards Ave.",NULL,Lynnwood,"WA ",Washington,98036
+33,SIGNATUR0001,"Signature Cycles",2,1,1,"Main Office","50 Kim Court",NULL,Coronado,"CA ",California,92118
+34,INDIANA0001,"Indiana Bicycle Center",1,1,1,"Main Office","9620 Laurel Drive",NULL,Novato,"WY ",Wyoming,82070
+35,MITCHELL0001,"Mitchell Sports",1,1,1,"Main Office","7562 Daylight Place",NULL,Everett,"WA ",Washington,98201
+36,RECREATI0001,"Recreation Place",4,1,1,"Main Office","207 Concerto Circle",NULL,Salem,"OR ",Oregon,97301
+37,INNERCI0001,"Inner City Bikes",3,1,1,"Main Office","102 Silverado Drive",NULL,"W. Linn","OR ",Oregon,97068
+38,ALLENSON0001,"Allenson Cycles",2,1,1,"Main Office","4659 Montoya",NULL,Altadena,"CA ",California,91001
+39,HILLSBI0001,"Hill's Bicycle Service",1,1,1,"Main Office","3664 Colt Ct.",NULL,Richmond,"CA ",California,94801
+40,WESTJUN0001,"West Junction Cycles",1,1,1,"Main Office","7786 Olive St",NULL,Olympia,"WA ",Washington,98501
+41,SPEEDCO0001,"Speed Corporation",1,1,1,"Main Office","2834 Clifford Court",#9,Anacortes,"WA ",Washington,98221
+42,LEGENDC0001,"Legend Cycles",1,1,1,"Main Office","978 Mozden Lane",NULL,"San Francisco","CA ",California,94109
+43,INLINEA0001,"Inline Accessories",1,1,1,"Main Office","5 Madrid",NULL,Concord,"CA ",California,94519
+44,COMPETIT0001,"Competition Bike Training Systems",1,1,1,"Main Office","4151 Olivera",NULL,Atlanta,"GA ",Georgia,30308
+45,CHICAGO0001,"Chicago City Saddles",1,1,1,"Main Office","3 Gehringer Drive",NULL,"Daly City","CA ",California,94015
+46,BURNETT0001,"Burnett Road Warriors",1,1,1,"Main Office","5807 Churchill Dr.",NULL,Corvallis,"OR ",Oregon,97330
+47,BIKESAT0001,"Bike Satellite Inc.",1,0,1,"Main Office","2141 Delaware Ct.",NULL,Downey,"TN ",Tennessee,37501
+48,GARDNER0001,"Gardner Touring Cycles",1,0,0,"Main Office","8513 Hurlstone Ct.",NULL,Altadena,"CA ",California,91001
+49,MAGICCY0001,"Magic Cycles",1,1,1,"Main Office","24 Bohon Circle",NULL,Burlingame,"CA ",California,94010
+50,VISIONC0001,"Vision Cycles, Inc.",1,0,1,"Main Office","40 Panorama Drive",NULL,Glendale,"CA ",California,91203
+51,BERGERON0001,"Bergeron Off-Roads",1,1,1,"Main Office","9830 May Way",NULL,"Mill Valley","MT ",Montana,59715
+52,HYBRIDB0001,"Hybrid Bicycle Center",1,1,1,"Main Office","6959 Lakewood Court",NULL,"Daly City","CA ",California,94015
+53,JACKSON0001,"Jackson Authority",1,1,1,"Main Office","32 East 87th Street",NULL,"Long Beach","CA ",California,90802
+54,PROSPOR0001,"Pro Sport Industries",1,0,1,"Main Office","6360 Sand Pointe Lane",NULL,Coronado,"CA ",California,92118
+55,SPORTFA0001,"Sport Fan Co.",1,1,1,"Main Office","80 Edward Ave",NULL,Burien,"WA ",Washington,98168
+56,INTERNAT0002,"International Bicycles",1,1,1,"Main Office","20 Rambling Rose Ave.","# 103","West Covina","CA ",California,91791
+57,WOODFIT0001,"Wood Fitness",1,1,1,"Main Office","7824 Frame Ln",NULL,Philadelphia,"PA ",Pennsylvania,19107
+58,MIDWEST0001,"Midwest Sport, Inc.",1,1,1,"Main Office","594 Tossing Way",NULL,Detroit,"MI ",Michigan,48226
+59,ELECTRON0001,"Electronic Bike Co.",1,1,1,"Main Office","8157 Tweed Lane",NULL,Anacortes,"WA ",Washington,98221
+60,INTERNAT0003,"International Sport Assoc.",1,1,1,"Main Office","6119 11th",NULL,"Salt Lake City","UT ",Utah,84101
+61,LINDELL0001,Lindell,1,1,1,"Main Office","9151 Napa C.",NULL,Lebanon,"OR ",Oregon,97355
+62,TRAINING0001,"Training Systems",1,1,1,"Main Office","6 Dancing Road",NULL,Burien,"WA ",Washington,98168
+63,MERITBI0001,"Merit Bikes",5,1,1,"Main Office","7 Mayda Way",NULL,Bremerton,"WA ",Washington,98312
+64,CIRCUIT0001,"Circuit Cycles",1,0,0,"Main Office","1 Mt. Dell Drive",NULL,Portland,"OR ",Oregon,97205
+65,INTERNAT0004,"International Trek Center",1,1,1,"Main Office","8844 Garcia",NULL,"West Covina","CA ",California,91791
+66,LAKEWOOD0001,"Lakewood Bicycle",1,1,1,"Main Office","6030 Winter Drive","# 4d","Imperial Beach","CA ",California,91932
+67,KNOPFLER0001,"Knopfler Cycles",1,1,1,"Main Office","3253 La Jolla",NULL,Salem,"OR ",Oregon,97301
+68,LEAFRIV0001,"Leaf River Terrain",1,0,1,"Main Office","1619 Mills Dr.",NULL,Albany,"OR ",Oregon,97321
+69,NATIONAL0001,"National Bike Association",1,1,1,"Main Office","90 Trujillo",NULL,"Sedro Woolley","WA ",Washington,98284
+70,SPORTPL0001,"Sport Playground",1,1,1,"Main Office","8671 Westwood Lane",NULL,"Palo Alto","CA ",California,94303
+71,VISTARO0001,"Vista Road Bikes",3,1,1,"Main Office","8197 Hermosa",NULL,Salem,"OR ",Oregon,97301
+72,VARSITY0001,"Varsity Sport Co.",1,1,1,"Main Office","81 Ana Mile",NULL,Spokane,"WA ",Washington,99202
+73,CROWLEY0001,"Crowley Sport",1,1,1,"Main Office","9056 Mount Dr",NULL,Chicago,"IL ",Illinois,60610
+74,AUSTRALI0001,"Australia Bike Retailer",1,1,1,"Main Office","28 San Marino Ct.",NULL,Bellingham,"WA ",Washington,98225
+75,NORTHERN0001,"Northern Bike Travel",3,1,1,"Main Office","3427 C Del Rio Ln",NULL,Anacortes,"WA ",Washington,98221
+76,CRUGERB0001,"Cruger Bike Company",1,1,1,"Main Office","67 Monetary Way",NULL,Berkeley,"CA ",California,94704
+77,CUSTOMF0001,"Custom Frames, Inc.",2,1,1,"Main Office","419 River Ash Court",#9,Lakewood,"MO ",Missouri,63301
+78,AURORAB0001,"Aurora Bike Center",1,1,1,"Main Office","65 Park Glen Court",NULL,"Port Orchard","WA ",Washington,98366
+79,GMASKI0001,"GMA Ski & Bike",1,1,1,"Main Office","50 Breck Court",NULL,Bremerton,"WA ",Washington,98312
+80,BICYCLE0001,"Bicycle Specialists",1,1,1,"Main Office","1286 Cincerto Circle",NULL,"Lake Oswego","OR ",Oregon,97034
+81,BLOOMING0001,"Bloomington Multisport",1,1,1,"Main Office","218 Fall Creek Road",NULL,"West Covina","CA ",California,91791
+82,ILLINOIS0001,"Illinois Trek & Clothing",1,1,1,"Main Office","1192 Parkway Drive",NULL,"Mill Valley","NE ",Nebraska,68601
+83,LITWARE0001,"Litware, Inc.",1,1,1,"Main Office","4405 Balboa Court",NULL,"Santa Cruz","CA ",California,95062
+84,PROSE0001,"Proseware, Inc.",4,0,0,"Main Office","50 Big Canyon Road",NULL,Lebanon,"OR ",Oregon,97355
+85,AMERICAN0001,"American Bicycles and Wheels",1,1,1,"Main Office","1667 Warren Street",NULL,"West Covina","CA ",California,91791
+86,CARLSON0001,"Carlson Specialties",2,1,1,"Main Office","2313 B Southampton Rd",NULL,Missoula,"MT ",Montana,59801
+87,EXPERTB0001,"Expert Bike Co",1,1,1,"Main Office","8892 Columbia River Ct.",NULL,"Santa Cruz","CA ",California,95062
+88,GREENWOO0001,"Greenwood Athletic Company",1,1,1,"Main Office","6441 Co Road",NULL,"Lemon Grove","AZ ",Arizona,85252
+89,SPORTSH0001,"Sports House",1,1,1,"Main Office","2014 Delta Road",NULL,Burien,"WA ",Washington,98168
+90,RELIANCE0001,"Reliance Fitness, Inc.",2,0,0,"Main Office","5514 Grant Street",NULL,Ballard,"WA ",Washington,98107
+91,WESTAMER0001,"WestAmerica Bicycle Co.",1,0,1,"Main Office","8040 Erie Dr","6 Monteira",Houston,"TX ",Texas,77003
+92,AMERICAN0002,"American Bikes",1,1,1,"Main Office","7179 Montana",NULL,Torrance,"CA ",California,90505
+93,CHICAGO0002,"Chicago Rent-All",2,1,1,"Main Office","15 Pear Dr.",NULL,"Newport Beach","CA ",California,92625
+94,SUPERIOR0001,"Superior Bicycles",1,1,1,"Main Office","87 S. Rising Ave",NULL,Lynnwood,"WA ",Washington,98036
+95,TEAMATH0001,"Team Athletic Co.",1,1,1,"Main Office","581 Roundtree Place",NULL,Spokane,"WA ",Washington,99202
+96,HILLBIC0001,"Hill Bicycle Center",1,1,1,"Main Office","87 Pheasant Circle",NULL,Oakland,"CA ",California,94611
+97,NORTHW0001,"Northwind Traders",1,1,1,"Main Office","137 Lancelot Dr",NULL,Phoenix,"AZ ",Arizona,85004
+98,TRIKES0001,"Trikes, Inc.",2,1,1,"Main Office","90 Sunny Ave",NULL,Berkeley,"CA ",California,94704
+99,MARSH0001,Marsh,1,1,1,"Main Office","7 B Way",NULL,Woodburn,"OR ",Oregon,97071
+100,HOLIDAY0001,"Holiday Skate & Cycle",1,1,1,"Main Office","3294 Buena Vista",NULL,"Lemon Grove","AZ ",Arizona,85284
+101,TOURING0001,"Touring Equipment Center",1,1,1,"Main Office","3681 South St.",NULL,"St. Louis","MO ",Missouri,63103
+102,FITNESS0001,"Fitness Association",1,1,1,"Main Office","8629 Pepper Place",NULL,Bellevue,"WA ",Washington,98004
+103,MORGANB0001,"Morgan Bike Accessories",1,1,1,"Main Office","9098 Story Lane",NULL,Albany,"NY ","New York",12210
+104,PROFESSI0001,"Professional Athletic Consultants",1,1,1,"Main Office","20 Smiling Tree Court",NULL,Burbank,"CA ",California,91502

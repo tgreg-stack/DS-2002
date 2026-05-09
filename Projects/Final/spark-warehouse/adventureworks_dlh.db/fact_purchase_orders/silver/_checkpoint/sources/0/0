@@ -1,0 +1,4 @@
+v1
+{"path":"file:///Users/gregory/Documents/GitHub/DS-2002/Projects/Final/spark-warehouse/adventureworks_dlh.db/fact_purchase_orders/bronze/part-00000-fada0518-7f2f-495f-b378-bbedb3f5a337-c000.snappy.parquet","timestamp":1778350448530,"batchId":0}
+{"path":"file:///Users/gregory/Documents/GitHub/DS-2002/Projects/Final/spark-warehouse/adventureworks_dlh.db/fact_purchase_orders/bronze/part-00000-ff00fdd4-fde9-422b-93ae-34c0f32a5c9f-c000.snappy.parquet","timestamp":1778350448926,"batchId":0}
+{"path":"file:///Users/gregory/Documents/GitHub/DS-2002/Projects/Final/spark-warehouse/adventureworks_dlh.db/fact_purchase_orders/bronze/part-00000-037189cc-2450-42e0-8620-932d8972881c-c000.snappy.parquet","timestamp":1778350449217,"batchId":0}

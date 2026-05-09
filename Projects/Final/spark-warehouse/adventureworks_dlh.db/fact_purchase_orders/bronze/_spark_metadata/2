@@ -1,0 +1,2 @@
+v1
+{"path":"file:///Users/gregory/Documents/GitHub/DS-2002/Projects/Final/spark-warehouse/adventureworks_dlh.db/fact_purchase_orders/bronze/part-00000-037189cc-2450-42e0-8620-932d8972881c-c000.snappy.parquet","size":56442,"isDir":false,"modificationTime":1778350449217,"blockReplication":1,"blockSize":33554432,"action":"add"}
